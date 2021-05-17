@@ -1,7 +1,6 @@
 body {
   font-size: 18px;
   font-family: "https://fonts.google.com/specimen/OpenSans", sans-serif;
-
 }
 h1,
 h2,
@@ -16,6 +15,7 @@ h6 {
 header {
 
   background-color: hsl(193, 100%, 96%);
+
   padding: 2.5%;
 
 }
@@ -56,9 +56,10 @@ header {
 /* getting started */
 #getting-started {
   background-image: url("images/bg-hero-mobile.svg");
+
   padding: 26% 8%;
   text-align: center;
-  background-color: hsl(193, 100%, 96%);
+  background-color: #ebfbff;
 }
 /* button */
 .getstart {
@@ -103,7 +104,6 @@ header {
 }
 /* features_area */
 #feature {
-  padding: 12% 7%;
   background-color: #ffffff;
   text-align: center;
 }
@@ -113,29 +113,29 @@ header {
   margin-top: 20%;
 }
 .content-feature{
-  border: 5px solid rgba(130,130,130,0.32);
-  border-radius: 15px;
-  margin: 12% 0;
-  padding: 3%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 12% 8%;
+  padding: 12%;
 }
 /* community area */
-#community{
-  padding: 4% 7% 8%;
-  margin-top: 0;
-}
 .getstart-2 {
   width: 90%;
 }
 .bootcard{
-  box-shadow: 10px 10px 5px 0px rgba(165,150,150,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(165,150,150,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(165,150,150,0.75);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 14%;
+}
+.bootcard-body{
+  padding: 10% 5%;
 }
 /* footer area */
 #footer{
-  background-color: hsl(192, 100%, 9%);
-  padding: 10% 5%;
+  background-color: #00252e;
   color: #ffffff;
+  margin-top: 38%;
+  padding: 35% 4% 4%;
 }
 .huddle-logo-footer{
   width: 30%;
@@ -176,8 +176,6 @@ li{
 }
 .socialmediaicon{
   padding: 5%;
-  /* border: 2px solid white;
-  border-radius: 100%; */
   margin-right: 2%;
 }
 .socialmediaicon:hover{
@@ -262,21 +260,22 @@ li{
     width: 50%;
   }
   .bootcard{
-    width: 100%;
+    width: 50%;
+    margin-top: 7%;
   }
   /* footer area */
   #footer{
     font-size: 1.1em;
     padding: 5%;
+    padding-top: 20%;
+    margin-top: 15%;
   }
   .huddle-logo-footer{
     width: 10%;
     padding: 1.2%;
     margin-bottom: 3%;
   }
-  .Icons{
-    padding-bottom: 2%;
-  }
+
   .icon{
     float: left;
     padding-right: 4%;
@@ -285,54 +284,11 @@ li{
     padding-bottom: 4%;
     margin-bottom: 1%;
   }
-  /* .end1{
-    padding-left: 34%;
+  .Icons{
+    padding-bottom: 2%;
+    clear: both;
   }
-  .end2{
-    padding-left: 20%;
-  } */
+
   .copyrite{
     text-align: right;
   }
-  /* .icon-desc{
-    display: inline-block;
-    padding-left: 1%;
-    padding-top: 0.5%;
-    text-align: left;
-    width: 85%;
-    clear: both;
-  }
-  .end1{
-    position: relative;
-    bottom: 24rem;
-    margin-left: 45%;
-  }
-  .end2{
-    position: relative;
-    bottom: 32rem;
-    margin-left: 65%;
-  }
-  li{
-    padding-bottom: 2%;
-  }
-  .fontawsm{
-    position: relative;
-    margin-left: 85%;
-    bottom: 43rem;
-  } */
-
-  /* .copyrite{
-    position: relative;
-    margin-left: 65%;
-    bottom: 23rem;
-  } */
-  /* .attribution{
-    position: relative;
-    text-align: center;
-    margin-left: 25%;
-    width: 50%;
-    bottom: 10rem;
-    font-size: 2em;
-  } */
-
-}
